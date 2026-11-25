@@ -24,4 +24,4 @@ jobs:
   run: chmod +x POS-Kasir/gradlew
 
 - name: Build APK
-  run: ./gradlew assembleDebug
+  run: cd POS-Kasir && ./gradlew assembleDebug
