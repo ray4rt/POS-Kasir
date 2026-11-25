@@ -21,7 +21,7 @@ jobs:
         cache: gradle
 
 - name: Grant execute permission
-  run: chmod +x ./gradlew
+  run: chmod +x POS-Kasir/gradlew
 
 - name: Build APK
   run: ./gradlew assembleDebug
